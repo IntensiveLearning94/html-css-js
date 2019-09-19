@@ -1,10 +1,10 @@
-* {border: 1px rgb(212, 199, 199);
+* {border: 1px grey;
 }
 
 body{
     width: 960;
     margin: 0px auto;
-    background-color: rgb(206, 194, 194);
+    background-color: gray;
 }
 /* the area below styles body>header */
 
@@ -46,4 +46,7 @@ img.resize {
     height: 300px;
 }
 
+img {
+    border: 10px hsl(404, 95, 44,1)
+}
 
