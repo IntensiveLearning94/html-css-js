@@ -1,10 +1,10 @@
-* {border: 1px grey;
+* {border: 1px rgb(212, 199, 199);
 }
 
 body{
     width: 960;
     margin: 0px auto;
-    background-color: gray;
+    background-color: rgb(206, 194, 194);
 }
 /* the area below styles body>header */
 
