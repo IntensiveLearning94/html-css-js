@@ -25,28 +25,34 @@ header {
     list-style: none;
     width: 100px;
     display: inline-block;
+    text-align: center;
 }
 
 header nav {
     color: gray;
     width: 50%;
+    text-align: center;
 }
 
 /* the area below styles body>main */
 
 img { 
+    height: 50%;
+    width: 50%;
     border: 10px dashed rgb(138, 122, 35);
     border-radius: 50px;
 }
 
-img.resize {
-    height: auto;
-    width: auto;
-    width:300px;
-    height: 300px;
-}
+/* img.resize { */
+    /* height: 5%; */
+    /* width: 5%; */
+    
+/* } */
 
-img {
-    border: 10px hsl(404, 95, 44,1)
-}
+/* img { */
+    /* height: 5%; */
+    /* width: 5% */
+    /* border: 10px hsl(404, 95, 44,1) */
+    
+/* } */
 
