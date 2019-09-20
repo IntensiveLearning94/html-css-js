@@ -34,6 +34,15 @@ function getItem(){
     return item;
 }
 
+var dog = 5;
+
+while (dog < 5) {
+  dogg++;
+}
+
+console.log(dog);
+// expected output: 5
+
 function showOrder (){
 var item = getItem();
 var total = howMany();
