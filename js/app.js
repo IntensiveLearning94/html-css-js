@@ -1,9 +1,9 @@
-function addName(){
+function addName() {
     var userName = prompt('Hello, what is your name?');
     return '<h3>' + 'Hello ' + userName + '!' +'</h3>';
 }
   
-function howMany(){
+function howMany() {
     var count = prompt('How many do you want to order?');
     while(count === '' || isNaN(count)){
         count = prompt('Please enter a number.  How many do you want to order?');
@@ -11,11 +11,12 @@ function howMany(){
     return Number(count);
 }
 
-function getItem(){
+function getItem() {
+
     var order = '';
     var item;
 
-    while(order === ''){
+    while(order === '') {
         order = prompt('Do you want a dog or a puppy?');
     }
 
@@ -23,9 +24,9 @@ function getItem(){
     //   order = prompt('Please enter "house" or "hotel"...');
     // }
 
-    if (order === 'dog'){
+    if (order === 'dog') {
         item = '<img src="images/Meso.jpg">';
-    } else if (order === 'puppy'){
+    } else if (order === 'puppy') {
         item = '<img src="images/training.jpg">';
     } 
     else {
@@ -34,23 +35,23 @@ function getItem(){
     return item;
 }
 
-var dog = 5;
+ var dog = 5;
 
 while (dog < 5) {
-  dogg++;
+  dog++;
 }
 
 console.log(dog);
 // expected output: 5
 
-function showOrder (){
+function showOrder () {
 var item = getItem();
 var total = howMany();
 var result = '';
 
-for(var i = 0; i < total; i++){
+for(var i = 0; i < total; i++) {
     var realCount = i + 1;
-    result = result + '<p>Model #' + realCount + ' ' + item + '</p>'
+    result = result + '<p>Meso #' + realCount + ' ' + item + '</p>'
 }
 return result;
 }

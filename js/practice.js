@@ -21,11 +21,11 @@
   
       function askQuestion(){
   
-          var answer = confirm ('Do you need training for you and your dog?')
+          var answer = confirm ('Would you like help with training your dog?')
       var response;
   
       if (answer === true) {
-          response = ('Well welcome to the right place');
+          response = ('Well you have come to the right place');
       } {
           response = ('Check out our dogs');
       }

@@ -1,17 +1,18 @@
-* {border: 1px grey;
+* {border: 100px rgba(175, 171, 171, 0.719);
 }
 
 body{
-    width: 960;
+    width: auto;
     margin: 0px auto;
-    background-color: gray;
+    /* background-color: rgb(214, 42, 42); */
+    
 }
 /* the area below styles body>header */
 
 header {
     height: 200px;
-     width: 50%;
-    margin: 0px auto 
+     width: 60%;
+    margin: 0px auto;
 
 }
 
@@ -25,34 +26,21 @@ header {
     list-style: none;
     width: 100px;
     display: inline-block;
-    text-align: center;
+    text-align: left;
 }
 
 header nav {
     color: gray;
-    width: 50%;
-    text-align: center;
+    width: auto;
+    text-align: left;
 }
 
 /* the area below styles body>main */
 
 img { 
+    text-align: top;
     height: 50%;
     width: 50%;
-    border: 10px dashed rgb(138, 122, 35);
+    border: 10px dashed rgb(172, 157, 72);
     border-radius: 50px;
 }
-
-/* img.resize { */
-    /* height: 5%; */
-    /* width: 5%; */
-    
-/* } */
-
-/* img { */
-    /* height: 5%; */
-    /* width: 5% */
-    /* border: 10px hsl(404, 95, 44,1) */
-    
-/* } */
-
